@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://livhnus.com/</loc></url>
-  <url><loc>https://livhnus.com/about/</loc></url>
+  <url><loc>https://livhnus.com/faculty/</loc></url>
   <url><loc>https://livhnus.com/course-information/</loc></url>
   <url><loc>https://livhnus.com/programme/</loc></url>
   <url><loc>https://livhnus.com/testimonials/</loc></url>
+  <url><loc>https://livhnus.com/gallery/</loc></url>
   <url><loc>https://livhnus.com/register/</loc></url>
   <url><loc>https://livhnus.com/contact/</loc></url>
+  <url><loc>https://livhnus.com/terms/</loc></url>
   <url><loc>https://livhnus.com/privacy-policy/</loc></url>
 </urlset>

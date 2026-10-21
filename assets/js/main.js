@@ -22,7 +22,7 @@
   }
 
   // Google Forms: embed or link, driven by config.js
-  var keys = { registration: 'registrationFormUrl', enquiry: 'enquiryFormUrl', testimonial: 'testimonialFormUrl' };
+  var keys = { registration: 'registrationFormUrl', testimonial: 'testimonialFormUrl' };
   document.querySelectorAll('[data-form]').forEach(function (block) {
     var kind = block.getAttribute('data-form');
     var url = (cfg[keys[kind]] || '').trim();
@@ -40,11 +40,4 @@
     }
   });
 
-  // Optional links (Google reviews, WhatsApp)
-  document.querySelectorAll('[data-config-link]').forEach(function (a) {
-    var key = a.getAttribute('data-config-link');
-    var url = (cfg[key] || '').trim();
-    var note = document.querySelector('[data-config-missing="' + key + '"]');
-    if (/^https:\/\//.test(url)) { a.href = url; a.hidden = false; if (note) note.hidden = true; }
-  });
 })();
